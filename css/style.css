@@ -3,20 +3,16 @@
     margin: 0;
 }
 
-@font-face {
-    font-family: 'SourseSansPro';
-    src: url('../fonts/SourceSansPro-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 
 
 .pr-page { 
+
     display:flex;
     flex-wrap: wrap;
     width: 100%;
-    font-family: 'SourseSansPro';
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;   
    
 }
