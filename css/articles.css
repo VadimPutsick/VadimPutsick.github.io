@@ -1,0 +1,162 @@
+/* bloks location */
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.article--image-container {
+    height: 150px;
+    width: 150px;
+    background-color: #2d85a9;
+    border-radius: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.article_bottom{
+   justify-content: flex-end;  
+}
+.article-long {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.articles-row {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.article-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.article-row_padding {
+    /* padding: 5%; */
+    min-height: 50%;
+    min-width: 50%;
+}
+
+
+/* image settings */
+
+.article--image {
+    min-height: 30%;
+    min-width: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.article--image-big {
+    margin: 10%;
+    min-height: 100px;
+    min-width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.article--photo {
+    height: 200px;
+    width: 200px;
+}
+
+.article_backgroud-image {   
+    width: 15%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.article--phone-white{
+    width: 10vw;
+    background-color: white;
+    text-align: center;
+}
+
+
+/* background images */
+
+.article--image_write {
+    background-image: url('../img/write.png');
+}
+
+.article--image_search {
+    background-image: url('../img/search.png');
+}
+
+.article--image_say {
+    background-image: url('../img/say.png');
+}
+
+.article--photo_blog1 {
+    background-image: url('../img/blogimg1.png');
+}
+
+.article--photo_blog2 {
+    background-image: url('../img/blogimg2.png');
+}
+
+.article--photo_blog3 {
+    background-image: url('../img/blogimg3.png');
+}
+
+.article--photo_blog4 {
+    background-image: url('../img/blogimg1.png');
+}
+/* team backdground */
+.article_john-snow {
+    background-image: url('../img/teamJohnSnow.png');
+}
+.article_david-smith {
+    background-image: url('../img/teamDavidSmith.png');
+}
+.article_lady-sansa {
+    background-image: url('../img/teamLadySansa.png');
+}
+.article_lady-sansa-pht {
+    background-image: url('../img/teamLadySansaPht.png');
+}
+
+/* text styles */
+
+.article--title {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.article--text {
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.article--text_gray {
+    color: #222222;
+}
+
+.article--title_blue {
+    color: #11749e;
+}
+
+.article--date_black {
+    color: rgb(35, 35, 35);
+}
+
+.article--title_black {
+    color: rgb(35, 35, 35);
+}
+
+.article--text_black {
+    color: rgb(35, 35, 35);
+}

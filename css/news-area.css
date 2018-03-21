@@ -1,0 +1,33 @@
+.background_social-advance {
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article_news-area {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.background_metod-advance {
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.background_social-advance-image {
+    background-image: url('../img/background2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background_metod-advance-image {
+    background-image: url('../img/background3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

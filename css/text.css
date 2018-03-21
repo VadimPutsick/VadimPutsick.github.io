@@ -1,0 +1,8 @@
+.text-middle{
+    font-size: 35px;
+}
+.text-middle_grey-center{
+    display:flex;
+    justify-content: center;
+    color: #222222;    
+}
